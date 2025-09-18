@@ -10,13 +10,13 @@ export default function About() {
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-8 sm:mb-10 md:mb-12">
           <div className="max-w-4xl mb-6 lg:mb-0">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black leading-tight text-center lg:text-left">
-              Star Glow: <span className="text-black">Professional Technical Services</span> for Dubai Construction
+              Welcome to <span style={{color: '#DAA520'}}>Star Glow</span>: <span className="text-black">Professional Technical Services</span> for Dubai Construction
             </h2>
           </div>
           <div className="text-center lg:text-right lg:mt-2">
             <div className="bg-white backdrop-blur-xl border border-gray-300 rounded-2xl p-4 shadow-lg shadow-gray-400/25">
-              <div className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1" style={{color: '#DAA520'}}>500+</div>
-              <div className="text-xs sm:text-sm" style={{color: '#6B7280'}}>Completed Projects in Dubai</div>
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1" style={{color: '#DAA520'}}>4536+</div>
+              <div className="text-xs sm:text-sm" style={{color: '#6B7280'}}>Completed Projects</div>
             </div>
           </div>
         </div>
@@ -27,9 +27,13 @@ export default function About() {
           <div className="relative order-2 lg:order-1">
             <div className="bg-gray-100 rounded-2xl shadow-xl border border-gray-300 overflow-hidden shadow-lg shadow-gray-400/25">
               <img
-                src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="/images/about.jpg"
                 alt="Star Glow Technical Services Team"
-                className="w-full h-full object-cover rounded-lg shadow-lg"
+                className="w-full rounded-lg shadow-lg object-cover"
+                style={{
+                  height: '600px',
+                  minHeight: '600px'
+                }}
                 onError={(e) => {
                   e.target.src = "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
                   e.target.onerror = () => {
@@ -45,21 +49,47 @@ export default function About() {
             {/* Professional Badge */}
             <div className="flex justify-center lg:justify-start">
               <div className="inline-flex items-center px-4 py-2 rounded-full text-xs sm:text-sm font-medium text-white border" style={{backgroundColor: 'rgba(218, 165, 32, 0.2)', color: '#DAA520', borderColor: 'rgba(218, 165, 32, 0.3)'}}>
-                Professional Excellence Leader
+                Emerging Leader in Earthwork Contracting
               </div>
             </div>
 
             {/* Heading */}
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-black leading-tight text-center lg:text-left">
-              Transforming construction projects with <span className="text-black">expert technical services</span> and quality craftsmanship.
+              Delivering dependable <span className="text-black">construction earthworks and pile demolition services</span> across diverse sectors.
             </h3>
 
             {/* Description */}
             <p className="text-base leading-relaxed text-center lg:text-left" style={{color: '#374151', lineHeight: '1.6'}}>
-              Star Glow revolutionizes technical services in Dubai by solving critical challenges like unreliable contractors, 
-              project delays, poor quality workmanship, and hidden costs. We leverage experienced professionals, quality materials, 
-              and proven techniques to deliver exceptional results faster and more efficiently.
+              An emerging leader in Earthwork contracting based in Dubai, UAE. We are committed to delivering dependable construction earthworks and pile demolition services across a diverse range of sectors, including government, corporate, educational institutions, industrial, residential, commercial real estate, and healthcare. At Star Glow, we prioritize quality in every aspect of our service.
             </p>
+
+            {/* Statistics */}
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 md:gap-8 lg:gap-12 mb-4 sm:mb-6">
+              <div className="text-center">
+                <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-1 sm:mb-2">4536+</div>
+                <div className="text-gray-700 text-xs sm:text-sm">
+                  Projects
+                  <br />
+                  Completed
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-1 sm:mb-2">29848+</div>
+                <div className="text-gray-700 text-xs sm:text-sm">
+                  Happy
+                  <br />
+                  Clients
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-1 sm:mb-2">44+</div>
+                <div className="text-gray-700 text-xs sm:text-sm">
+                  Experienced
+                  <br />
+                  Team
+                </div>
+              </div>
+            </div>
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">

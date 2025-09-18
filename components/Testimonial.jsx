@@ -239,23 +239,25 @@ export default function Testimonials() {
         >
           <h2 
             style={{
-              fontSize: 'clamp(2.5rem, 5vw, 3.5rem)',
+              fontSize: 'clamp(2rem, 5vw, 3.5rem)',
               fontWeight: 'bold',
               color: '#000000',
               marginBottom: '1rem',
-              lineHeight: '1.2'
+              lineHeight: '1.2',
+              trackingTight: 'tight'
             }}
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight"
           >
-            What Our Clients Say
+            What Our <span style={{ color: '#DAA520' }}>Clients</span> Say
           </h2>
           <p 
             style={{
-              fontSize: '1rem',
-              color: '#4B5563',
+              color: '#374151',
               maxWidth: '32rem',
               margin: '0 auto',
               lineHeight: '1.6'
             }}
+            className="text-base sm:text-lg md:text-xl"
           >
             Don't just take our word for it. Here's what our satisfied clients across Dubai have to say about our services.
           </p>
@@ -312,8 +314,8 @@ export default function Testimonials() {
           <p 
             style={{
               color: '#4B5563',
-              marginBottom: '3rem',
-              fontSize: '1rem'
+              marginBottom: '6rem',
+              fontSize: '2rem'
             }}
           >
             Trusted by leading companies and homeowners across Dubai
@@ -322,7 +324,7 @@ export default function Testimonials() {
           <div 
             style={{
               overflow: 'hidden',
-              paddingBottom: '2rem'
+              paddingBottom: '2px'
             }}
           >
             {/* First Row - Moving Right */}
@@ -335,19 +337,19 @@ export default function Testimonials() {
               }}
             >
               {[
-                'Dubai Properties',
-                'Emirates NBD', 
-                'ADCB',
-                'Emaar',
-                'DEWA',
-                'Dubai Municipality',
-                'RTA Dubai',
-                'Dubai Properties',
-                'Emirates NBD', 
-                'ADCB',
-                'Emaar',
-                'DEWA'
-              ].map((company, index) => (
+                '/images/client_1.jpg',
+                '/images/client_2.jpg', 
+                '/images/client_3.jpg',
+                '/images/client_4.jpg',
+                '/images/client_5.jpg',
+                '/images/client_6.jpg',
+                '/images/client_7.jpg',
+                '/images/client_8.jpg',
+                '/images/client_9.jpg', 
+                '/images/client_10.jpg',
+                '/images/client_11.jpg',
+                '/images/client_12.jpg'
+              ].map((logo, index) => (
                 <div 
                   key={index}
                   style={{
@@ -356,22 +358,25 @@ export default function Testimonials() {
                     justifyContent: 'center',
                     minWidth: '250px',
                     padding: '0 2rem',
-                    fontSize: '1.125rem',
-                    fontWeight: '600',
-                    color: '#333333',
                     transition: 'all 0.3s ease-in-out',
                     cursor: 'pointer'
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.transform = 'scale(1.1)'
-                    e.currentTarget.style.color = '#DAA520'
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = 'scale(1)'
-                    e.currentTarget.style.color = '#333333'
                   }}
                 >
-                  {company}
+                  <img 
+                    src={logo} 
+                    alt={`Client logo ${index + 1}`}
+                    style={{
+                      maxWidth: '150px',
+                      maxHeight: '80px',
+                      objectFit: 'contain'
+                    }}
+                  />
                 </div>
               ))}
             </div>
@@ -385,19 +390,19 @@ export default function Testimonials() {
               }}
             >
               {[
-                'Damac Properties',
-                'Dubai Holding',
-                'Nakheel',
-                'Meraas',
-                'Al Futtaim Group',
-                'Majid Al Futtaim',
-                'Dubai Silicon Oasis',
-                'Damac Properties',
-                'Dubai Holding',
-                'Nakheel',
-                'Meraas',
-                'Al Futtaim Group'
-              ].map((company, index) => (
+                '/images/client_13.jpg',
+                '/images/client_14.jpg',
+                '/images/client_15.jpg',
+                '/images/client_16.jpg',
+                '/images/client_17.jpg',
+                '/images/client_18.jpg',
+                '/images/client_19.jpg',
+                '/images/client_20.jpg',
+                '/images/client_21.jpg',
+                '/images/client_22.jpg',
+                '/images/client_23.jpg',
+                '/images/client_24.jpg'
+              ].map((logo, index) => (
                 <div 
                   key={index}
                   style={{
@@ -406,22 +411,25 @@ export default function Testimonials() {
                     justifyContent: 'center',
                     minWidth: '250px',
                     padding: '0 2rem',
-                    fontSize: '1.125rem',
-                    fontWeight: '600',
-                    color: '#333333',
                     transition: 'all 0.3s ease-in-out',
                     cursor: 'pointer'
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.transform = 'scale(1.1)'
-                    e.currentTarget.style.color = '#DAA520'
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = 'scale(1)'
-                    e.currentTarget.style.color = '#333333'
                   }}
                 >
-                  {company}
+                  <img 
+                    src={logo} 
+                    alt={`Client logo ${index + 13}`}
+                    style={{
+                      maxWidth: '150px',
+                      maxHeight: '80px',
+                      objectFit: 'contain'
+                    }}
+                  />
                 </div>
               ))}
             </div>

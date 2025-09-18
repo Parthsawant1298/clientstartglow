@@ -7,28 +7,28 @@ export default function StarGlowServices() {
     {
       title: "Plaster Works",
       icon: Wrench,
-      image: "https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/images/plaster.webp",
       iconColor: "gold",
       description: "Professional plastering and finishing work for interior and exterior walls with high-quality materials and expert craftsmanship."
     },
     {
       title: "Electrical Fittings & Fixtures Repairing & Maintenance",
       icon: Zap,
-      image: "https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/images/electrical.jpg",
       iconColor: "gold",
       description: "Professional electrical services including fixture installation, wiring repairs, and comprehensive electrical maintenance solutions."
     },
     {
       title: "Floor & Wall Tiling Works",
       icon: Hammer,
-      image: "https://images.pexels.com/photos/8142115/pexels-photo-8142115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/images/tiling.jpg",
       iconColor: "gold",
       description: "Expert tiling installation for floors and walls using premium tiles with precise cutting and waterproof sealing."
     },
     {
       title: "Plumbing & Sanitary Installation",
       icon: Settings,
-      image: "https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/images/plumbing.png",
       iconColor: "gold",
       description: "Complete plumbing services including pipe installation, fixture setup, leak repairs, and sanitary system maintenance."
     },
@@ -42,28 +42,28 @@ export default function StarGlowServices() {
     {
       title: "False Ceiling & Light Partitions Installation",
       icon: Settings,
-      image: "https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/images/flase-ceiling.jpg",
       iconColor: "gold",
       description: "Expert installation of false ceilings and light partitions for modern interior design and space optimization."
     },
     {
       title: "Carpentry & Wood Flooring Works",
       icon: Hammer,
-      image: "https://images.pexels.com/photos/5974930/pexels-photo-5974930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/images/wooden.webp",
       iconColor: "gold",
       description: "Professional carpentry services and wood flooring installation with high-quality materials and precise craftsmanship."
     },
     {
       title: "Sanitary Installation & Pipes Repairing",
       icon: Settings,
-      image: "https://images.pexels.com/photos/6189058/pexels-photo-6189058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/images/sanitary.jpg",
       iconColor: "gold",
       description: "Complete sanitary installation services and professional pipe repair solutions for residential and commercial properties."
     },
     {
       title: "Air-Conditioning, Ventilations & Air Filtration Systems Installation & Maintenance",
       icon: Wind,
-      image: "https://images.pexels.com/photos/8142115/pexels-photo-8142115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/images/air.jpg",
       iconColor: "gold",
       description: "Complete HVAC installation, maintenance, and repair services including air conditioning, ventilation, and air filtration systems."
     }

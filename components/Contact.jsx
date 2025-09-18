@@ -66,7 +66,7 @@ export default function ContactPage({ backgroundImage = null }) {
                 </span>
               </h1>
               <p className="text-black text-lg sm:text-xl max-w-2xl mx-auto font-semibold">
-                Professional Technical Services in Dubai
+                Star Glow Earthwork Contracting Services in Dubai
               </p>
             </div>
           </div>
@@ -87,10 +87,10 @@ export default function ContactPage({ backgroundImage = null }) {
               </h2>
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
                 Let's Transform Your 
-                <span className="text-black"> Property with Professional Services</span>
+                <span className="text-black"> Construction Project with Expert Earthwork Services</span>
               </h1>
               <p className="text-gray-700 mt-3 sm:mt-4 text-sm sm:text-base">
-                Get in touch to discover how our professional technical services can revolutionize your property with expert plaster works, painting, electrical installations, and comprehensive maintenance solutions.
+                Get in touch to discover how Star Glow's dependable construction earthworks and pile demolition services can transform your project across government, corporate, educational, industrial, residential, commercial, and healthcare sectors.
               </p>
             </div>
 
@@ -176,24 +176,22 @@ export default function ContactPage({ backgroundImage = null }) {
               </div>
 
               {/* Company */}
-              <div>
-                <label htmlFor="company" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
-                  Property/Company Name
-                </label>
-                <input
-                  type="text"
-                  id="company"
-                  name="company"
-                  value={formData.company}
-                  onChange={handleInputChange}
-                  className="w-full px-3 sm:px-4 py-3 sm:py-3.5 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 transition-all text-sm sm:text-base min-h-[44px]"
-                  onFocus={(e) => e.target.style.borderColor = '#DAA520'}
-                  onBlur={(e) => e.target.style.borderColor = '#D1D5DB'}
-                  placeholder="Dubai Marina Villa / Business Bay Tower"
-                />
-              </div>
-
-              {/* Message */}
+                <div>
+                  <label htmlFor="company" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
+                    Project/Company Name
+                  </label>
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    value={formData.company}
+                    onChange={handleInputChange}
+                    className="w-full px-3 sm:px-4 py-3 sm:py-3.5 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 transition-all text-sm sm:text-base min-h-[44px]"
+                    onFocus={(e) => e.target.style.borderColor = '#DAA520'}
+                    onBlur={(e) => e.target.style.borderColor = '#D1D5DB'}
+                    placeholder="Dubai Construction Project / Emirates Development LLC"
+                  />
+                </div>              {/* Message */}
               <div>
                 <label htmlFor="message" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                   Message *
@@ -208,7 +206,7 @@ export default function ContactPage({ backgroundImage = null }) {
                   className="w-full px-3 sm:px-4 py-2.5 sm:py-3 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 resize-none transition-all text-sm sm:text-base"
                   onFocus={(e) => e.target.style.borderColor = '#DAA520'}
                   onBlur={(e) => e.target.style.borderColor = '#D1D5DB'}
-                  placeholder="Tell us about your technical service needs - plaster works, painting, electrical, HVAC, plumbing, or tiling requirements. Include property details and timeline..."
+                  placeholder="Tell us about your earthwork contracting needs - excavation, pile demolition, site preparation, foundation work, or construction earthworks. Include project details, location, and timeline requirements..."
                 />
               </div>
 
@@ -233,10 +231,10 @@ export default function ContactPage({ backgroundImage = null }) {
           <div className="space-y-6 sm:space-y-8">
             <div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-3 sm:mb-4">
-                Ready to transform your property with professional services?
+                Ready to start your construction earthwork project with expert services?
               </h3>
               <p className="text-gray-700 leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base">
-                Join 500+ satisfied clients using Star Glow Technical Services for comprehensive property maintenance, construction works, and professional installations across Dubai. Let's discuss how we can help you achieve quality results with expert craftsmanship.
+                Join 4536+ satisfied clients who trust Star Glow Technical Services for dependable construction earthworks and pile demolition services across Dubai and UAE. As an emerging leader in earthwork contracting, we deliver quality results with cutting-edge equipment and comprehensive training.
               </p>
             </div>
 
@@ -263,7 +261,7 @@ export default function ContactPage({ backgroundImage = null }) {
                 <div>
                   <h3 className="text-black font-semibold mb-1 text-sm sm:text-base">Phone Number</h3>
                   <p className="text-gray-700 text-sm sm:text-base">+971 505577870</p>
-                  <p className="text-xs sm:text-sm text-gray-600">Available 24/7 for emergency technical services</p>
+                  <p className="text-xs sm:text-sm text-gray-600">Available 24/7 for emergency earthwork and construction services</p>
                 </div>
               </div>
 
@@ -308,7 +306,7 @@ export default function ContactPage({ backgroundImage = null }) {
                 <div>
                   <h3 className="text-black font-semibold mb-1 text-sm sm:text-base">WhatsApp</h3>
                   <p className="text-gray-700 text-sm sm:text-base">+971 505577870</p>
-                  <p className="text-xs sm:text-sm text-gray-600">Quick support & free service consultations</p>
+                  <p className="text-xs sm:text-sm text-gray-600">Quick support & free earthwork consultations</p>
                 </div>
               </div>
 
@@ -345,7 +343,7 @@ export default function ContactPage({ backgroundImage = null }) {
                     <br />
                     Business Bay & Emirates Hills
                   </p>
-                  <p className="text-xs sm:text-sm text-gray-600">Free site visits across Dubai & UAE</p>
+                  <p className="text-xs sm:text-sm text-gray-600">Free site visits for earthwork projects across Dubai & UAE</p>
                 </div>
               </div>
             </div>

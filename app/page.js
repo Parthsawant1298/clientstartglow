@@ -7,18 +7,21 @@ import Ctc from '@/components/Ctc';
 import Footer from '@/components/Footer';
 import Testimonials from '@/components/Testimonial';
 import Services from '@/components/Services';
-
+import Client from '@/components/Client';
+import ProjectGallery from '@/components/Projectsgalary';
 export default function Home() {
   return (
     <main>
       <Header />
-      <Hero backgroundImage="/background.jpg" />
+      <Hero />
       <Stat />
       <About />
       <Services />
       <Why />
+      <Client />
       
       <Testimonials />
+      <ProjectGallery />
       <Ctc />
       <Footer />
     </main>

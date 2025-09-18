@@ -73,35 +73,26 @@ function Button({ children, size, variant, className, ...props }) {
   )
 }
 
-export default function Hero({ backgroundImage = null, heroImage = null }) {
-  // Default CDN image for hero section
-  const defaultHeroImage = "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
-  
-  // Use provided image or default CDN image
-  const displayImage = heroImage || defaultHeroImage
-  
-  // Background styles
-  const backgroundStyles = backgroundImage 
-    ? {
-        backgroundImage: `url(${backgroundImage}) `,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed'
-      }
-    : {
-        background: ''
-      }
+export default function Hero() {
 
   return (
-    <section 
-      className="relative py-8 lg:py-8 min-h-screen"
-      style={backgroundStyles}
-    >
-      <div className="container mx-auto px-4">
+    <section className="relative py-8 lg:py-8 min-h-screen">
+      {/* Background image with opacity */}
+      <div 
+        className="absolute inset-0"
+        style={{
+          backgroundImage: `url(/background.jpg)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          opacity: 0.3
+        }}
+      ></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div>
+          <div className="text-center lg:text-left">
             <h1 
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6"
               style={{ 
@@ -125,29 +116,29 @@ export default function Hero({ backgroundImage = null, heroImage = null }) {
             </p>
 
             {/* Key Features */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-8 max-w-xs sm:max-w-sm">
-              <div className="flex items-center gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-8 max-w-xs sm:max-w-sm mx-auto lg:mx-0">
+              <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <CheckCircle 
                   className="h-5 w-5" 
                   style={{ color: '#DAA520' }}
                 />
                 <span style={{ color: '#000000', fontSize: '1rem' }}>Licensed & Insured</span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <CheckCircle 
                   className="h-5 w-5" 
                   style={{ color: '#DAA520' }}
                 />
                 <span style={{ color: '#000000', fontSize: '1rem' }}>24/7 Service</span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <CheckCircle 
                   className="h-5 w-5" 
                   style={{ color: '#DAA520' }}
                 />
                 <span style={{ color: '#000000', fontSize: '1rem' }}>Expert Technicians</span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <CheckCircle 
                   className="h-5 w-5" 
                   style={{ color: '#DAA520' }}
@@ -157,7 +148,7 @@ export default function Hero({ backgroundImage = null, heroImage = null }) {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link href="/contact">
                 <Button size="lg">
                   <span className="flex items-center gap-2">
@@ -182,16 +173,15 @@ export default function Hero({ backgroundImage = null, heroImage = null }) {
                 boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)'
               }}
             >
-              <img
-                src={displayImage}
-                alt="Professional construction and technical services in Dubai"
+              <video
+                autoPlay
+                muted
+                loop
                 className="w-full h-[400px] lg:h-[500px] object-cover"
-                loading="lazy"
-                onError={(e) => {
-                  // Fallback to default image if custom image fails to load
-                  e.target.src = defaultHeroImage
-                }}
-              />
+              >
+                <source src="/images/IMG_9433.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
               <div 
                 className="absolute inset-0"
                 style={{
