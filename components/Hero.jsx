@@ -76,7 +76,7 @@ function Button({ children, size, variant, className, ...props }) {
 export default function Hero() {
 
   return (
-    <section className="relative py-8 lg:py-8 min-h-screen">
+    <section className="relative py-8 lg:py-8 min-h-screen" style={{ backgroundColor: '#FFFFFF' }}>
       {/* Background image with opacity */}
       <div 
         className="absolute inset-0"
@@ -85,7 +85,7 @@ export default function Hero() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          opacity: 0.3
+          opacity: 0.1
         }}
       ></div>
       

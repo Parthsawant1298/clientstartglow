@@ -320,9 +320,9 @@ const ProjectGallery = () => {
             </button>
             
             {/* Modal Content */}
-            <div className="relative max-w-5xl max-h-[90vh] w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+            <div className="relative max-w-5xl max-h-[90vh] w-full bg-white rounded-lg overflow-hidden shadow-2xl mx-4">
               {/* Image Container */}
-              <div className="relative w-full h-[60vh] bg-gray-100">
+              <div className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] bg-gray-100">
                 <img 
                   src={getImageSrc(activeProject)}
                   alt={activeProject.name || 'Project image'}
@@ -332,40 +332,40 @@ const ProjectGallery = () => {
               </div>
               
               {/* Project Details */}
-              <div className="p-6 bg-white">
-                <div className="flex items-start justify-between">
+              <div className="p-4 sm:p-6 bg-white max-h-[40vh] overflow-y-auto">
+                <div className="flex flex-col">
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">{activeProject.name}</h3>
-                    <div className="flex items-center text-gray-600 mb-4">
-                      <MapPin className="h-5 w-5 mr-2" style={{color: '#DAA520'}} />
-                      <span className="text-lg">{activeProject.location}</span>
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-2">{activeProject.name}</h3>
+                    <div className="flex items-center text-gray-600 mb-3 sm:mb-4">
+                      <MapPin className="h-4 w-4 sm:h-5 sm:w-5 mr-2" style={{color: '#DAA520'}} />
+                      <span className="text-sm sm:text-base md:text-lg">{activeProject.location}</span>
                     </div>
-                    <p className="text-sm font-medium mb-4" style={{color: '#DAA520'}}>{activeProject.category || 'Technical Services'}</p>
+                    <p className="text-xs sm:text-sm font-medium mb-3 sm:mb-4" style={{color: '#DAA520'}}>{activeProject.category || 'Technical Services'}</p>
                     
                     {activeProject.description && (
-                      <p className="text-gray-600 text-sm mb-4 line-clamp-3">{activeProject.description}</p>
+                      <p className="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed">{activeProject.description}</p>
                     )}
                     
                     <div className="mb-4">
-                      <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
-                        <Wrench className="h-5 w-5 mr-2" style={{color: '#DAA520'}} />
+                      <h4 className="text-sm sm:text-base md:text-lg font-semibold text-gray-900 mb-2 sm:mb-3 flex items-center">
+                        <Wrench className="h-4 w-4 sm:h-5 sm:w-5 mr-2" style={{color: '#DAA520'}} />
                         Services Provided
                       </h4>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      <div className="grid grid-cols-1 gap-2">
                         {activeProject.services.map((service, index) => (
                           <div
                             key={index}
-                            className="flex items-center p-3 rounded-lg border transition-all duration-200"
+                            className="flex items-center p-2 sm:p-3 rounded-lg border transition-all duration-200"
                             style={{
                               backgroundColor: 'rgba(218, 165, 32, 0.05)',
                               borderColor: 'rgba(218, 165, 32, 0.2)'
                             }}
                           >
                             <div 
-                              className="w-2 h-2 rounded-full mr-3 flex-shrink-0"
+                              className="w-2 h-2 rounded-full mr-2 sm:mr-3 flex-shrink-0"
                               style={{backgroundColor: '#DAA520'}}
                             ></div>
-                            <span className="text-sm font-medium text-gray-800">
+                            <span className="text-xs sm:text-sm font-medium text-gray-800">
                               {service}
                             </span>
                           </div>
@@ -373,14 +373,6 @@ const ProjectGallery = () => {
                       </div>
                     </div>
                   </div>
-                  
-                  <button
-                    className="flex items-center text-white px-6 py-3 rounded-lg transition-colors font-medium ml-6"
-                    style={{backgroundColor: '#DAA520'}}
-                  >
-                    <Info className="h-5 w-5 mr-2" />
-                    View Details
-                  </button>
                 </div>
               </div>
             </div>
