@@ -273,11 +273,13 @@ export default function Footer() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               {[
                 'Plaster Works',
-                'Painting Contracting',
-                'Floor & Wall Tiling',
-                'Plumbing & Sanitary',
-                'Electrical Services',
-                'HVAC Systems'
+                'Electrical Fittings & Fixtures',
+                'Floor & Wall Tiling Works',
+                'Plumbing & Sanitary Installation',
+                'Electromechanical Equipment',
+                'False Ceiling & Light Partitions',
+                'Carpentry & Wood Flooring',
+                'Air-Conditioning & Ventilation'
               ].map((service) => (
                 <p 
                   key={service}
@@ -385,10 +387,10 @@ export default function Footer() {
                   color: '#FFFFFF'
                 }}
               >
-                Stay Updated
+                Get Your Free Quote
               </h4>
               <p style={{ color: '#B3B3B3', fontSize: '0.875rem', margin: 0 }}>
-                Get the latest updates on our services and offers.
+                Ready to start your project? Contact us today for a free consultation.
               </p>
             </div>
             <div 
@@ -400,13 +402,15 @@ export default function Footer() {
               }}
             >
               <Input 
-                placeholder="Enter your email" 
+                placeholder="Enter your email for quick contact" 
                 style={{
                   flex: 1,
                   minWidth: '200px'
                 }}
               />
-              <Button>Subscribe</Button>
+              <Link href="/contact">
+                <Button>Get Quote</Button>
+              </Link>
             </div>
           </div>
         </div>

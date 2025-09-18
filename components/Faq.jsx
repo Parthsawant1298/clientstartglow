@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
+import Link from 'next/link'
 
 export default function FAQPage({ backgroundImage = null }) {
   const [openFaq, setOpenFaq] = useState(null)
@@ -185,9 +186,7 @@ export default function FAQPage({ backgroundImage = null }) {
                   SUPPORT
                 </span>
               </h1>
-              <p className="text-black text-lg sm:text-xl max-w-2xl mx-auto font-semibold">
-                Professional Technical Services in Dubai
-              </p>
+              
             </div>
           </div>
         </div>
@@ -240,33 +239,37 @@ export default function FAQPage({ backgroundImage = null }) {
                 Can't find the answer you're looking for? Our technical service experts are here to help you get the best solutions for your property maintenance and construction needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                <button 
-                  className="text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl text-sm sm:text-base"
-                  style={{
-                    background: 'linear-gradient(to right, #DAA520, #B8860B)',
-                  }}
-                  onMouseEnter={(e) => e.target.style.background = 'linear-gradient(to right, #B8860B, #DAA520)'}
-                  onMouseLeave={(e) => e.target.style.background = 'linear-gradient(to right, #DAA520, #B8860B)'}
-                >
-                  Get Free Quote
-                </button>
-                <button 
-                  className="bg-gray-100 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold border-2 hover:bg-gray-50 transform hover:scale-105 transition-all duration-200 text-sm sm:text-base"
-                  style={{
-                    color: '#DAA520',
-                    borderColor: '#DAA520'
-                  }}
-                  onMouseEnter={(e) => {
-                    e.target.style.backgroundColor = 'rgba(218, 165, 32, 0.1)'
-                    e.target.style.borderColor = '#B8860B'
-                  }}
-                  onMouseLeave={(e) => {
-                    e.target.style.backgroundColor = '#F9FAFB'
-                    e.target.style.borderColor = '#DAA520'
-                  }}
-                >
-                  Schedule Consultation
-                </button>
+                <Link href="/contact">
+                  <button 
+                    className="text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl text-sm sm:text-base"
+                    style={{
+                      background: 'linear-gradient(to right, #DAA520, #B8860B)',
+                    }}
+                    onMouseEnter={(e) => e.target.style.background = 'linear-gradient(to right, #B8860B, #DAA520)'}
+                    onMouseLeave={(e) => e.target.style.background = 'linear-gradient(to right, #DAA520, #B8860B)'}
+                  >
+                    Get Free Quote
+                  </button>
+                </Link>
+                <Link href="/contact">
+                  <button 
+                    className="bg-gray-100 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold border-2 hover:bg-gray-50 transform hover:scale-105 transition-all duration-200 text-sm sm:text-base"
+                    style={{
+                      color: '#DAA520',
+                      borderColor: '#DAA520'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.target.style.backgroundColor = 'rgba(218, 165, 32, 0.1)'
+                      e.target.style.borderColor = '#B8860B'
+                    }}
+                    onMouseLeave={(e) => {
+                      e.target.style.backgroundColor = '#F9FAFB'
+                      e.target.style.borderColor = '#DAA520'
+                    }}
+                  >
+                    Schedule Consultation
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

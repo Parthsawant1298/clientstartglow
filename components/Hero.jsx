@@ -77,15 +77,14 @@ export default function Hero() {
 
   return (
     <section className="relative py-8 lg:py-8 min-h-screen" style={{ backgroundColor: '#FFFFFF' }}>
-      {/* Background image with opacity */}
+      {/* Background image with responsive opacity */}
       <div 
-        className="absolute inset-0"
+        className="absolute inset-0 opacity-5 md:opacity-80"
         style={{
           backgroundImage: `url(/background.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          opacity: 0.1
+          backgroundRepeat: 'no-repeat'
         }}
       ></div>
       
@@ -101,7 +100,7 @@ export default function Hero() {
               }}
             >
               Professional Technical Services in{' '}
-              <span style={{ color: '#DAA520' }}>Dubai</span>
+              <span style={{ color: '#000000ff' }}>Dubai</span>
             </h1>
 
             <p 
@@ -157,9 +156,9 @@ export default function Hero() {
                   </span>
                 </Button>
               </Link>
-              <Link href="/services">
+              <Link href="/about">
                 <Button size="lg" variant="outline">
-                  View Services
+                  Learn More About Us
                 </Button>
               </Link>
             </div>

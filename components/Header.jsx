@@ -33,20 +33,20 @@ export default function Header() {
     >
       {/* Top contact bar */}
       <div 
-        className="py-2"
+        className="py-2 px-4"
         style={{
           backgroundColor: 'black',
           color: '#FFFFFF'
         }}
       >
-        <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center text-sm">
-          <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2">
-              <Phone className="h-4 w-4" />
+        <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center text-xs sm:text-sm gap-2 sm:gap-0">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+            <div className="flex items-center gap-1 sm:gap-2">
+              <Phone className="h-3 w-3 sm:h-4 sm:w-4" />
               <span>+971 505577870</span>
             </div>
-            <div className="flex items-center gap-2">
-              <Mail className="h-4 w-4" />
+            <div className="hidden sm:flex items-center gap-1 sm:gap-2">
+              <Mail className="h-3 w-3 sm:h-4 sm:w-4" />
               <span>yousufali_99@yahoo.com</span>
             </div>
           </div>
@@ -129,16 +129,18 @@ export default function Header() {
             >
               FAQ
             </Link>
-            <Button 
-              style={{
-                backgroundColor: '#DAA520',
-                color: '#FFFFFF'
-              }}
-              onMouseEnter={(e) => e.target.style.backgroundColor = '#B8860B'}
-              onMouseLeave={(e) => e.target.style.backgroundColor = '#DAA520'}
-            >
-              Get Started
-            </Button>
+            <Link href="/contact">
+              <Button 
+                style={{
+                  backgroundColor: '#DAA520',
+                  color: '#FFFFFF'
+                }}
+                onMouseEnter={(e) => e.target.style.backgroundColor = '#B8860B'}
+                onMouseLeave={(e) => e.target.style.backgroundColor = '#DAA520'}
+              >
+                Get Started
+              </Button>
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -178,6 +180,7 @@ export default function Header() {
               >
                 About Us
               </Link>
+              {/* Services page not available yet
               <Link 
                 href="/services" 
                 className="transition-colors"
@@ -186,7 +189,7 @@ export default function Header() {
                 onMouseLeave={(e) => e.target.style.color = '#000000'}
               >
                 Services
-              </Link>
+              </Link> */}
               <Link 
                 href="/contact" 
                 className="transition-colors"
@@ -205,17 +208,19 @@ export default function Header() {
               >
                 FAQ
               </Link>
-              <Button 
-                className="w-fit"
-                style={{
-                  backgroundColor: '#DAA520',
-                  color: '#FFFFFF'
-                }}
-                onMouseEnter={(e) => e.target.style.backgroundColor = '#B8860B'}
-                onMouseLeave={(e) => e.target.style.backgroundColor = '#DAA520'}
-              >
-                Get Started
-              </Button>
+              <Link href="/contact">
+                <Button 
+                  className="w-fit"
+                  style={{
+                    backgroundColor: '#DAA520',
+                    color: '#FFFFFF'
+                  }}
+                  onMouseEnter={(e) => e.target.style.backgroundColor = '#B8860B'}
+                  onMouseLeave={(e) => e.target.style.backgroundColor = '#DAA520'}
+                >
+                  Get Started
+                </Button>
+              </Link>
             </div>
           </nav>
         )}

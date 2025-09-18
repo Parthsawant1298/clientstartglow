@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { ChevronLeft, ChevronRight, ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function ClientsSection() {
   const [currentPage, setCurrentPage] = useState(0)
@@ -84,10 +85,12 @@ export default function ClientsSection() {
               </p>
             </div>
 
-            <button className="group flex items-center gap-3 border border-white/20 px-6 py-3 rounded-md hover:border-[#DAA520] hover:bg-[#DAA520] transition-all duration-300">
-              <span className="text-white group-hover:text-black font-medium">View all Clients</span>
-              <ArrowRight className="w-5 h-5 text-white group-hover:text-black transition-colors" />
-            </button>
+            <Link href="/about">
+              <button className="group flex items-center gap-3 border border-white/20 px-6 py-3 rounded-md hover:border-[#DAA520] hover:bg-[#DAA520] transition-all duration-300">
+                <span className="text-white group-hover:text-black font-medium">View all Clients</span>
+                <ArrowRight className="w-5 h-5 text-white group-hover:text-black transition-colors" />
+              </button>
+            </Link>
           </div>
 
           {/* Right Content - Clients Grid with Carousel */}

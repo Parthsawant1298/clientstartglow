@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -93,34 +94,38 @@ export default function About() {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
-              <button 
-                className="text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 text-base w-full sm:w-auto shadow-lg border"
-                style={{
-                  backgroundColor: '#DAA520',
-                  borderColor: 'rgba(218, 165, 32, 0.3)',
-                  boxShadow: '0 4px 6px -1px rgba(218, 165, 32, 0.25)'
-                }}
-                onMouseEnter={(e) => e.target.style.backgroundColor = '#B8860B'}
-                onMouseLeave={(e) => e.target.style.backgroundColor = '#DAA520'}
-              >
-                Start Your Project
-              </button>
-              <button 
-                className="border border-gray-400 hover:border-gray-500 hover:bg-gray-100 text-gray-700 hover:text-black font-semibold py-3 px-8 rounded-lg transition-all duration-200 bg-white text-base w-full sm:w-auto"
-                style={{
-                  borderColor: 'rgba(218, 165, 32, 0.5)'
-                }}
-                onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = 'rgba(218, 165, 32, 0.1)'
-                  e.target.style.borderColor = '#DAA520'
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = 'white'
-                  e.target.style.borderColor = 'rgba(218, 165, 32, 0.5)'
-                }}
-              >
-                Get Free Consultation
-              </button>
+              <Link href="/contact">
+                <button 
+                  className="text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 text-base w-full sm:w-auto shadow-lg border"
+                  style={{
+                    backgroundColor: '#DAA520',
+                    borderColor: 'rgba(218, 165, 32, 0.3)',
+                    boxShadow: '0 4px 6px -1px rgba(218, 165, 32, 0.25)'
+                  }}
+                  onMouseEnter={(e) => e.target.style.backgroundColor = '#B8860B'}
+                  onMouseLeave={(e) => e.target.style.backgroundColor = '#DAA520'}
+                >
+                  Start Your Project
+                </button>
+              </Link>
+              <Link href="/contact">
+                <button 
+                  className="border border-gray-400 hover:border-gray-500 hover:bg-gray-100 text-gray-700 hover:text-black font-semibold py-3 px-8 rounded-lg transition-all duration-200 bg-white text-base w-full sm:w-auto"
+                  style={{
+                    borderColor: 'rgba(218, 165, 32, 0.5)'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.backgroundColor = 'rgba(218, 165, 32, 0.1)'
+                    e.target.style.borderColor = '#DAA520'
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.backgroundColor = 'white'
+                    e.target.style.borderColor = 'rgba(218, 165, 32, 0.5)'
+                  }}
+                >
+                  Get Free Consultation
+                </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -31,13 +31,13 @@ export default function AboutUsPage({ backgroundImage = null }) {
     <div className="min-h-screen relative overflow-hidden" style={{backgroundColor: '#FFFFFF'}}>
       {/* Hero Section */}
       <section 
-        className="relative h-[400px] sm:h-[470px] md:h-[350px] lg:h-[625px] overflow-hidden pt-16 sm:pt-20 md:pt-16"
+        className="relative h-[300px] sm:h-[400px] md:h-[350px] lg:h-[625px] overflow-hidden pt-16 sm:pt-20 md:pt-16"
         style={backgroundStyles}
       >
 
         <div className="container mx-auto px-4 sm:px-6 relative z-20 h-full">
           <div className="flex flex-col items-center justify-center h-full">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-black text-center">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold text-black text-center">
               ABOUT
               <span 
                 className="text-transparent bg-clip-text"
@@ -55,21 +55,18 @@ export default function AboutUsPage({ backgroundImage = null }) {
       </section>
 
       {/* Main Content Section */}
-      <section className="py-6 sm:py-8 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 lg:px-16 relative z-10">
+      <section className="py-4 sm:py-6 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 lg:px-16 relative z-10">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-16 items-center">
             {/* Hero Image */}
             <div className="order-2 lg:order-1 flex justify-center">
               <img
-                src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
+                src="/images/about.jpg"
                 alt="Star Glow professional technical services team"
-                className="w-full max-w-sm sm:max-w-md lg:max-w-none rounded-lg shadow-lg border shadow-lg"
+                className="w-full max-w-sm sm:max-w-md lg:max-w-none rounded-lg shadow-lg border shadow-lg h-[300px] min-h-[300px] sm:h-[400px] sm:min-h-[400px] md:h-[500px] md:min-h-[500px] lg:h-[600px] lg:min-h-[600px] object-cover"
                 style={{
                   borderColor: 'rgba(218, 165, 32, 0.3)',
-                  boxShadow: '0 4px 6px -1px rgba(218, 165, 32, 0.1)',
-                  height: '600px',
-                  minHeight: '600px',
-                  objectFit: 'cover'
+                  boxShadow: '0 4px 6px -1px rgba(218, 165, 32, 0.1)'
                 }}
                 onError={(e) => {
                   e.target.src = "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
@@ -126,19 +123,19 @@ export default function AboutUsPage({ backgroundImage = null }) {
       </section>
 
       {/* Process Section */}
-      <section className="py-8 sm:py-12 md:py-20 lg:py-24 px-4 sm:px-6 md:px-8 lg:px-16 relative z-10" style={{backgroundColor: '#FFFFFF'}}>
+      <section className="py-6 sm:py-8 md:py-20 lg:py-24 px-4 sm:px-6 md:px-8 lg:px-16 relative z-10" style={{backgroundColor: '#FFFFFF'}}>
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-stretch">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-16 items-stretch">
             {/* Process Content */}
-            <div className="flex flex-col justify-between space-y-4 sm:space-y-6 md:space-y-8">
+            <div className="flex flex-col justify-between space-y-3 sm:space-y-4 md:space-y-6 lg:space-y-8 order-1 lg:order-1">
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-tight">
                 Our <span style={{color: '#DAA520'}}>Innovation & Partnerships</span>
               </h2>
 
               {/* Content Sections */}
-              <div className="space-y-4 sm:space-y-6 md:space-y-8 flex-grow flex flex-col justify-center">
+              <div className="space-y-3 sm:space-y-4 md:space-y-6 lg:space-y-8 flex-grow flex flex-col justify-center">
                 {/* Sister Companies */}
-                <div className="space-y-3">
+                <div className="space-y-2 sm:space-y-3">
                   <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-gray-900">
                     Sister Company Support
                   </h3>
@@ -148,7 +145,7 @@ export default function AboutUsPage({ backgroundImage = null }) {
                 </div>
 
                 {/* Precision Engineering */}
-                <div className="space-y-3">
+                <div className="space-y-2 sm:space-y-3">
                   <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-gray-900">
                     Advanced Manufacturing Facility
                   </h3>
@@ -158,7 +155,7 @@ export default function AboutUsPage({ backgroundImage = null }) {
                 </div>
 
                 {/* Future Focus */}
-                <div className="space-y-3">
+                <div className="space-y-2 sm:space-y-3">
                   <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-gray-900">
                     Environmental Sustainability
                   </h3>
@@ -170,11 +167,11 @@ export default function AboutUsPage({ backgroundImage = null }) {
             </div>
 
             {/* Process Image */}
-            <div className="order-first lg:order-last">
+            <div className="order-2 lg:order-2">
               <img
                 src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
                 alt="Star Glow technical services innovation and partnerships"
-                className="w-full h-48 sm:h-64 md:h-80 lg:h-full object-cover rounded-lg shadow-lg border shadow-lg"
+                className="w-full h-64 sm:h-72 md:h-80 lg:h-full object-cover rounded-lg shadow-lg border shadow-lg"
                 style={{
                   borderColor: 'rgba(218, 165, 32, 0.3)',
                   boxShadow: '0 4px 6px -1px rgba(218, 165, 32, 0.1)'
