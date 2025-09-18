@@ -20,11 +20,11 @@ export const metadata = {
   openGraph: {
     title: "Star Glow Technical Services - Complete Construction & Technical Solutions Dubai",
     description: "Leading technical services company in Dubai, UAE. Expert plaster works, painting, tiling, plumbing, electrical, HVAC installation & maintenance.",
-    url: "https://starglowservices.ae/",
+    url: "https://startglowdxb.com/", // ✅ FIXED
     siteName: "Star Glow Technical Services",
     images: [
       {
-        url: "https://starglowservices.ae/images/starglow-logo.png",
+        url: "https://startglowdxb.com/images/logo.jpg", // ✅ FIXED
         width: 1200,
         height: 630,
         alt: "Star Glow Technical Services Logo",
@@ -34,7 +34,7 @@ export const metadata = {
     locale: "en_AE",
   },
   alternates: {
-    canonical: "https://starglowservices.ae/",
+    canonical: "https://startglowdxb.com/", // ✅ FIXED
   },
 };
 
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <meta name="geo.placename" content="Dubai" />
         <meta name="geo.position" content="25.2048;55.2708" />
         <meta name="ICBM" content="25.2048, 55.2708" />
-        <link rel="canonical" href="https://starglowservices.ae/" />
+        <link rel="canonical" href="https://startglowdxb.com/" /> {/* ✅ FIXED */}
         <link rel="icon" href="/favicon.ico" />
         
         {/* Business Schema for Star Glow Technical Services */}
@@ -60,9 +60,9 @@ export default function RootLayout({ children }) {
               "name": "Star Glow Technical Services",
               "alternateName": "ستار جلو للخدمات الفنية",
               "description": "Complete technical and construction services in Dubai, UAE. Specializing in plaster works, painting, plumbing, electrical, and HVAC solutions.",
-              "url": "https://starglowservices.ae/",
-              "logo": "https://starglowservices.ae/images/starglow-logo.png",
-              "image": "https://starglowservices.ae/images/starglow-services.jpg",
+              "url": "https://startglowdxb.com/", // ✅ FIXED
+              "logo": "https://startglowdxb.com/images/logo.jpg", // ✅ FIXED
+              "image": "https://startglowdxb.com/images/logo.jpg", // ✅ FIXED
               "telephone": "+971505577870",
               "email": "yousufali_99@yahoo.com",
               "address": {

@@ -163,7 +163,7 @@ export default function Footer() {
               }}
             >
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-09-15%20at%2013.57.42_cc62faa1.jpg-nefoIOUSHCCX8SYH6PsmN0YVOc7DDz.jpeg"
+                src="/images/logo.jpg"
                 alt="Star Glow Logo"
                 style={{
                   height: '2.5rem',
