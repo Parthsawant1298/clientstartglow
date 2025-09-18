@@ -47,9 +47,8 @@ export default function RootLayout({ children }) {
         <meta name="geo.placename" content="Dubai" />
         <meta name="geo.position" content="25.2048;55.2708" />
         <meta name="ICBM" content="25.2048, 55.2708" />
-        <link rel="canonical" href="https://startglowdxb.com/" /> {/* ✅ FIXED */}
+        <link rel="canonical" href="https://startglowdxb.com/" />
         <link rel="icon" href="/favicon.ico" />
-        
         {/* Business Schema for Star Glow Technical Services */}
         <script
           type="application/ld+json"
