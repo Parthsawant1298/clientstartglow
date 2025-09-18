@@ -56,13 +56,13 @@ export default function FAQPage({ backgroundImage = null }) {
       id: 6,
       question: "How quickly can you start my technical service project?",
       answer:
-        "We can typically start most projects within 24-48 hours of confirmation. For emergency services like plumbing or electrical issues, we offer same-day service across Dubai.",
+        "We can typically start most projects within 24-48 hours of confirmation. For emergency services like plumbing or electrical issues, we offer same-day service across UAE.",
     },
     {
       id: 7,
-      question: "What areas in Dubai do you service?",
+      question: "What areas in UAE do you service?",
       answer:
-        "We provide technical services across all areas of Dubai including Dubai Marina, Downtown Dubai, Business Bay, JBR, DIFC, Emirates Hills, and surrounding emirates.",
+        "We provide technical services across all areas of UAE including UAE Marina, Downtown UAE, Business Bay, JBR, DIFC, Emirates Hills, and surrounding emirates.",
     },
     {
       id: 8,
@@ -86,13 +86,13 @@ export default function FAQPage({ backgroundImage = null }) {
       id: 11,
       question: "Can you handle multiple properties or projects simultaneously?",
       answer:
-        "Of course! We have the capacity to manage multiple projects across different locations in Dubai, with dedicated project managers ensuring quality and timely completion.",
+        "Of course! We have the capacity to manage multiple projects across different locations in UAE, with dedicated project managers ensuring quality and timely completion.",
     },
     {
       id: 12,
-      question: "Are you licensed and insured for technical services in Dubai?",
+      question: "Are you licensed and insured for technical services in UAE?",
       answer:
-        "Yes, we are fully licensed by Dubai Municipality and carry comprehensive insurance coverage. All our technicians are certified professionals with years of experience in the UAE market.",
+        "Yes, we are fully licensed by UAE Municipality and carry comprehensive insurance coverage. All our technicians are certified professionals with years of experience in the UAE market.",
     },
   ]
 
@@ -208,7 +208,7 @@ export default function FAQPage({ backgroundImage = null }) {
               > Questions</span>
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
-              Get answers to common questions about our professional technical services, plaster works, painting, electrical installations, plumbing, and comprehensive maintenance solutions in Dubai.
+              Get answers to common questions about our professional fitout, interior and MEP services, plaster works, painting, electrical installations, plumbing, and comprehensive maintenance solutions in UAE.
             </p>
           </div>
 
@@ -236,7 +236,7 @@ export default function FAQPage({ backgroundImage = null }) {
                 Still have questions?
               </h3>
               <p className="text-sm sm:text-base md:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
-                Can't find the answer you're looking for? Our technical service experts are here to help you get the best solutions for your property maintenance and construction needs.
+                Can't find the answer you're looking for? Our technical service experts are here to help you get the best solutions for your property maintenance needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                 <Link href="/contact">

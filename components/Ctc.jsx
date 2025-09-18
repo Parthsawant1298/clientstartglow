@@ -122,7 +122,7 @@ export default function CTA() {
             color: '#FFFFFF'
           }}
         >
-          Get in touch with our expert team today for a free consultation and quote. We're here to bring your vision to life with professional technical services.
+          Get in touch with our expert team today for a free consultation and quote. We're here to bring your vision to life with professional fitout, interior and MEP services.
         </p>
 
         <div 

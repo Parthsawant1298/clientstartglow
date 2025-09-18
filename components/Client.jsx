@@ -45,10 +45,14 @@ export default function ClientsSection() {
     "/images/client_34.jpg",
     "/images/client_35.jpg",
     "/images/client_36.jpg",
-    // "/images/client_37.jpg",
-    // "/images/client_38.jpg",
-    // "/images/client_39.jpg",
-    // "/images/client_40.jpg",
+    "/images/client_37.jpg",
+    "/images/client_38.jpg",
+    "/images/client_39.jpg",
+    "/images/client_40.jpg",
+    "/images/client_41.jpg",
+    "/images/client_42.jpg",
+    "/images/client_43.jpg",
+    "/images/client_44.jpg",
   ]
 
   const itemsPerPage = 12 // 3x4 grid

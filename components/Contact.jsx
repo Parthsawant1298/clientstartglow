@@ -66,7 +66,7 @@ export default function ContactPage({ backgroundImage = null }) {
                 </span>
               </h1>
               <p className="text-black text-lg sm:text-xl max-w-2xl mx-auto font-semibold">
-                Star Glow Earthwork Contracting Services in Dubai
+                Star Glow Earthwork Contracting Services in UAE
               </p>
             </div>
           </div>
@@ -87,10 +87,10 @@ export default function ContactPage({ backgroundImage = null }) {
               </h2>
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
                 Let's Transform Your 
-                <span className="text-black"> Construction Project with Expert Earthwork Services</span>
+                <span className="text-black"> Project with Expert Earthwork Services</span>
               </h1>
               <p className="text-gray-700 mt-3 sm:mt-4 text-sm sm:text-base">
-                Get in touch to discover how Star Glow's dependable construction earthworks and pile demolition services can transform your project across government, corporate, educational, industrial, residential, commercial, and healthcare sectors.
+                Get in touch to discover how Star Glow's dependable earthworks and pile demolition services can transform your project across government, corporate, educational, industrial, residential, commercial, and healthcare sectors.
               </p>
             </div>
 
@@ -152,7 +152,7 @@ export default function ContactPage({ backgroundImage = null }) {
                   className="w-full px-3 sm:px-4 py-3 sm:py-3.5 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 transition-all text-sm sm:text-base min-h-[44px]"
                   onFocus={(e) => e.target.style.borderColor = '#DAA520'}
                   onBlur={(e) => e.target.style.borderColor = '#D1D5DB'}
-                  placeholder="ahmed@dubaiproperty.ae"
+                  placeholder="ahmed@uaeproperty.ae"
                 />
               </div>
 
@@ -189,7 +189,7 @@ export default function ContactPage({ backgroundImage = null }) {
                     className="w-full px-3 sm:px-4 py-3 sm:py-3.5 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 transition-all text-sm sm:text-base min-h-[44px]"
                     onFocus={(e) => e.target.style.borderColor = '#DAA520'}
                     onBlur={(e) => e.target.style.borderColor = '#D1D5DB'}
-                    placeholder="Dubai Construction Project / Emirates Development LLC"
+                    placeholder="UAE Project / Emirates Development LLC"
                   />
                 </div>              {/* Message */}
               <div>
@@ -206,7 +206,7 @@ export default function ContactPage({ backgroundImage = null }) {
                   className="w-full px-3 sm:px-4 py-2.5 sm:py-3 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 resize-none transition-all text-sm sm:text-base"
                   onFocus={(e) => e.target.style.borderColor = '#DAA520'}
                   onBlur={(e) => e.target.style.borderColor = '#D1D5DB'}
-                  placeholder="Tell us about your earthwork contracting needs - excavation, pile demolition, site preparation, foundation work, or construction earthworks. Include project details, location, and timeline requirements..."
+                  placeholder="Tell us about your earthwork contracting needs - excavation, pile demolition, site preparation, foundation work, or earthworks. Include project details, location, and timeline requirements..."
                 />
               </div>
 
@@ -231,10 +231,10 @@ export default function ContactPage({ backgroundImage = null }) {
           <div className="space-y-6 sm:space-y-8">
             <div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-3 sm:mb-4">
-                Ready to start your construction earthwork project with expert services?
+                Ready to start your earthwork project with expert services?
               </h3>
               <p className="text-gray-700 leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base">
-                Join 4536+ satisfied clients who trust Star Glow Technical Services for dependable construction earthworks and pile demolition services across Dubai and UAE. As an emerging leader in earthwork contracting, we deliver quality results with cutting-edge equipment and comprehensive training.
+                Join 4536+ satisfied clients who trust Star Glow Technical Services for dependable earthworks and pile demolition services across UAE. As an emerging leader in earthwork contracting, we deliver quality results with cutting-edge equipment and comprehensive training.
               </p>
             </div>
 
@@ -261,7 +261,7 @@ export default function ContactPage({ backgroundImage = null }) {
                 <div>
                   <h3 className="text-black font-semibold mb-1 text-sm sm:text-base">Phone Number</h3>
                   <p className="text-gray-700 text-sm sm:text-base">+971 505577870</p>
-                  <p className="text-xs sm:text-sm text-gray-600">Available 24/7 for emergency earthwork and construction services</p>
+                  <p className="text-xs sm:text-sm text-gray-600">Available 24/7 for emergency earthwork services</p>
                 </div>
               </div>
 
@@ -337,13 +337,13 @@ export default function ContactPage({ backgroundImage = null }) {
                 <div>
                   <h3 className="text-black font-semibold mb-1 text-sm sm:text-base">Service Areas</h3>
                   <p className="text-gray-700 text-sm sm:text-base">
-                    Dubai Marina
+                    UAE Marina
                     <br />
-                    Downtown Dubai
+                    Downtown UAE
                     <br />
                     Business Bay & Emirates Hills
                   </p>
-                  <p className="text-xs sm:text-sm text-gray-600">Free site visits for earthwork projects across Dubai & UAE</p>
+                  <p className="text-xs sm:text-sm text-gray-600">Free site visits for earthwork projects across UAE</p>
                 </div>
               </div>
             </div>
@@ -366,7 +366,7 @@ export default function ContactPage({ backgroundImage = null }) {
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Dubai Service Area"
+                  title="UAE Service Area"
                 ></iframe>
               </div>
             </div>

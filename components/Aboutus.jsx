@@ -61,8 +61,8 @@ export default function AboutUsPage({ backgroundImage = null }) {
             {/* Hero Image */}
             <div className="order-2 lg:order-1 flex justify-center">
               <img
-                src="/images/about.jpg"
-                alt="Star Glow professional technical services team"
+                src="/images/about.webp"
+                alt="Star Glow professional fitout, interior and MEP services team"
                 className="w-full max-w-sm sm:max-w-md lg:max-w-none rounded-lg shadow-lg border shadow-lg h-[300px] min-h-[300px] sm:h-[400px] sm:min-h-[400px] md:h-[500px] md:min-h-[500px] lg:h-[600px] lg:min-h-[600px] object-cover"
                 style={{
                   borderColor: 'rgba(218, 165, 32, 0.3)',
@@ -82,7 +82,7 @@ export default function AboutUsPage({ backgroundImage = null }) {
                 </h1>
                 <div className="space-y-4 text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
                   <p>
-                    An emerging leader in Earthwork contracting based in Dubai, UAE. We are committed to delivering dependable construction earthworks and pile demolition services across a diverse range of sectors, including government, corporate, educational institutions, industrial, residential, commercial real estate, and healthcare.
+                    An emerging leader in Earthwork contracting based in UAE. We are committed to delivering dependable earthworks and pile demolition services across a diverse range of sectors, including government, corporate, educational institutions, industrial, residential, commercial real estate, and healthcare.
                   </p>
                   <p>
                     At Star Glow, we prioritize quality in every aspect of our service. Our outstanding performance stems from the comprehensive training provided to our team and our dedication to employing cutting-edge equipment and technology. This commitment places us at the forefront of innovation, allowing us to create tailored solutions that meet the specific needs of our clients.
@@ -140,7 +140,7 @@ export default function AboutUsPage({ backgroundImage = null }) {
                     Sister Company Support
                   </h3>
                   <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed">
-                    We are proud to have the support of our sister companies in India, Innovative Green Resources PVT. LTD. and TECHPOWER TECHNOLOGIES. These companies specialize in manufacturing essential engineering products that are primarily required for construction works, facilitating ease and efficiency in our operations.
+                    We are proud to have the support of our sister companies in India, Innovative Green Resources PVT. LTD. and TECHPOWER TECHNOLOGIES. These companies specialize in manufacturing essential engineering products that are primarily required for our works, facilitating ease and efficiency in our operations.
                   </p>
                 </div>
 

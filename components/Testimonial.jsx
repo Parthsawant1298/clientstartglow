@@ -154,14 +154,14 @@ const testimonials = [
   {
     name: "Ahmed Al-Rashid",
     role: "Property Manager",
-    company: "Dubai Properties",
+    company: "UAE Properties",
     content: "Star Glow Technical Services has been our go-to partner for all maintenance work. Their professionalism and quality of work is exceptional. Highly recommended!",
     rating: 5,
   },
   {
     name: "Sarah Johnson",
     role: "Homeowner",
-    company: "Dubai Marina",
+    company: "UAE Marina",
     content: "Excellent service for our home renovation. The team was punctual, professional, and delivered exactly what was promised. Very satisfied with the results.",
     rating: 5,
   },
@@ -181,8 +181,8 @@ const testimonials = [
   },
   {
     name: "John Smith",
-    role: "Construction Manager",
-    company: "Downtown Dubai Project",
+    role: "Project Manager",
+    company: "Downtown UAE Project",
     content: "Reliable electrical installation services. They completed our commercial project on time and within budget. Great team to work with.",
     rating: 5,
   },
@@ -196,7 +196,7 @@ const testimonials = [
   {
     name: "Robert Wilson",
     role: "Hotel Manager",
-    company: "Dubai Creek Resort",
+    company: "UAE Creek Resort",
     content: "Exceptional plumbing services for our hotel maintenance. Available 24/7 and always responsive to emergency calls. Very dependable.",
     rating: 5,
   },
@@ -259,7 +259,7 @@ export default function Testimonials() {
             }}
             className="text-base sm:text-lg md:text-xl"
           >
-            Don't just take our word for it. Here's what our satisfied clients across Dubai have to say about our services.
+            Don't just take our word for it. Here's what our satisfied clients across UAE have to say about our services.
           </p>
         </div>
 
@@ -318,7 +318,7 @@ export default function Testimonials() {
               fontSize: '2rem'
             }}
           >
-            Trusted by leading companies and homeowners across Dubai
+            Trusted by leading companies and homeowners across UAE
           </p>
           
           <div 

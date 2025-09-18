@@ -26,7 +26,7 @@ const Section = () => {
             Why Choose <span style={{color: '#DAA520'}}>Star Glow</span> Technical Services?
           </h1>
           <p className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto" style={{color: '#374151'}}>
-            Professional Technical Services & Construction Solutions in Dubai
+            Professional Fitout, Interior and MEP Services & Solutions in UAE
           </p>
         </div>
 
@@ -46,7 +46,7 @@ const Section = () => {
             <div className="relative z-1 w-full lg:w-auto lg:max-w-[16rem] xl:max-w-[18rem] 2xl:max-w-[20rem] lg:ml-auto p-3 sm:p-4 md:p-5 lg:p-6 rounded-lg lg:rounded-xl">
               <h4 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 md:mb-4 text-white">Complete Technical Services</h4>
               <p className="text-sm sm:text-base mb-3 sm:mb-4 md:mb-5 text-gray-100 leading-snug">
-                Professional construction and technical services for residential and commercial projects across Dubai with expert craftmanship
+                Professional fitout, interior and MEP services for residential and commercial projects across UAE with expert craftmanship
               </p>
               <ul className="space-y-1 sm:space-y-1.5 md:space-y-2">
                 {platformFeatures.map((feature, index) => (
@@ -73,14 +73,14 @@ const Section = () => {
                 <img
                   src="/images/construction.jpg"
                   className="w-full h-full object-cover"
-                  alt="Professional Construction Services"
+                  alt="Professional Fitout, Interior and MEP Services"
                 />
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-4 sm:p-6 bg-gradient-to-b from-black/0 to-black/90">
-                <h4 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white">Professional Construction Services</h4>
+                <h4 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white">Professional Fitout, Interior and MEP Services</h4>
                 <p className="text-sm sm:text-base mb-4 text-gray-100">
-                  Complete construction and technical services including plaster works, tiling, electrical, and plumbing solutions
+                  Complete technical services including plaster works, tiling, electrical, and plumbing solutions
                 </p>
               </div>
             </div>

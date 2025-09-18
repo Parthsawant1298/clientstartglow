@@ -99,8 +99,8 @@ export default function Hero() {
                 lineHeight: '1.1'
               }}
             >
-              Professional Technical Services in{' '}
-              <span style={{ color: '#000000ff' }}>Dubai</span>
+              Professional Fitout, Interior and MEP Services in{' '}
+              <span style={{ color: '#000000ff' }}>UAE</span>
             </h1>
 
             <p 
@@ -110,7 +110,7 @@ export default function Hero() {
                 lineHeight: '1.6'
               }}
             >
-              Leading provider of construction and technical services in the UAE. From plaster works to HVAC systems, we
+              Leading provider of technical services in the UAE. From plaster works to HVAC systems, we
               deliver excellence in every project with over a decade of experience.
             </p>
 

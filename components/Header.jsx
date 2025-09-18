@@ -51,7 +51,7 @@ export default function Header() {
             </div>
           </div>
           <div className="text-center sm:text-right">
-            <span>Dubai - United Arab Emirates</span>
+            <span>UAE - United Arab Emirates</span>
           </div>
         </div>
       </div>

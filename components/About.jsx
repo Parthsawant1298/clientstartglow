@@ -11,7 +11,7 @@ export default function About() {
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-8 sm:mb-10 md:mb-12">
           <div className="max-w-4xl mb-6 lg:mb-0">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black leading-tight text-center lg:text-left">
-              Welcome to <span style={{color: '#DAA520'}}>Star Glow</span>: <span className="text-black">Professional Technical Services</span> for Dubai Construction
+              Welcome to <span style={{color: '#DAA520'}}>Star Glow</span>: <span className="text-black">Professional Fitout, Interior and MEP Works </span> for UAE 
             </h2>
           </div>
           <div className="text-center lg:text-right lg:mt-2">
@@ -28,7 +28,7 @@ export default function About() {
           <div className="relative order-2 lg:order-1">
             <div className="bg-gray-100 rounded-2xl shadow-xl border border-gray-300 overflow-hidden shadow-lg shadow-gray-400/25">
               <img
-                src="/images/about.jpg"
+                src="/images/about.webp"
                 alt="Star Glow Technical Services Team"
                 className="w-full rounded-lg shadow-lg object-cover"
                 style={{
@@ -56,12 +56,12 @@ export default function About() {
 
             {/* Heading */}
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-black leading-tight text-center lg:text-left">
-              Delivering dependable <span className="text-black">construction earthworks and pile demolition services</span> across diverse sectors.
+             Our highly qualified Engineers have the expertise to provide the best <span className="text-black">Engineering services in MEP</span>. We are currently executing a number of projects in different premises of commercial, residential and industrial type.
             </h3>
 
             {/* Description */}
             <p className="text-base leading-relaxed text-center lg:text-left" style={{color: '#374151', lineHeight: '1.6'}}>
-              An emerging leader in Earthwork contracting based in Dubai, UAE. We are committed to delivering dependable construction earthworks and pile demolition services across a diverse range of sectors, including government, corporate, educational institutions, industrial, residential, commercial real estate, and healthcare. At Star Glow, we prioritize quality in every aspect of our service.
+              An emerging leader in Earthwork contracting based in UAE. We are committed to delivering dependable earthworks and pile demolition services across a diverse range of sectors, including government, corporate, educational institutions, industrial, residential, commercial real estate, and healthcare. At Star Glow, we prioritize quality in every aspect of our service.
             </p>
 
             {/* Statistics */}

@@ -14,7 +14,7 @@ const ProjectGallery = () => {
     {
       id: 1,
       name: "Le Meridien Hotel Walkway",
-      location: "Airport Road, Dubai",
+      location: "Airport Road, UAE",
       description: "Complete HVAC, Fire Alarm, Fire Fighting, and Emergency Exit Sign Lighting systems installation for the prestigious Le Meridien Hotel walkway connecting the main building.",
       services: ["HVAC Systems", "Fire Alarm Systems", "Fire Fighting Systems", "Emergency Exit Lighting"],
       image: "/images/project_1.jpg",
@@ -23,7 +23,7 @@ const ProjectGallery = () => {
     {
       id: 2,
       name: "Arjaan Rotana Hotel",
-      location: "Dubai Media City",
+      location: "UAE Media City",
       description: "Fire Fighting and Fire Alarm system installation for floors G, 28th & 29th of the luxury Arjaan Rotana Hotel, ensuring comprehensive safety coverage.",
       services: ["Fire Fighting Systems", "Fire Alarm Systems", "Emergency & Exit Lighting"],
       image: "/images/project_2.jpg",
@@ -32,8 +32,8 @@ const ProjectGallery = () => {
     {
       id: 3,
       name: "Landmark Hotel",
-      location: "Al Rigga, Dubai",
-      description: "Complete fire safety systems installation including Fire Fighting, Fire Alarm, and Emergency Exit Lighting systems for this prominent Dubai landmark hotel.",
+      location: "Al Rigga, UAE",
+      description: "Complete fire safety systems installation including Fire Fighting, Fire Alarm, and Emergency Exit Lighting systems for this prominent UAE landmark hotel.",
       services: ["Fire Fighting Systems", "Fire Alarm Systems", "Emergency & Exit Lighting"],
       image: "/images/project_3.jpg",
       category: "Hospitality"
@@ -41,7 +41,7 @@ const ProjectGallery = () => {
     {
       id: 4,
       name: "BMW Showroom",
-      location: "Sheikh Zayed Road, Dubai",
+      location: "Sheikh Zayed Road, UAE",
       description: "Professional installation of Fire Fighting, Fire Alarm, and Emergency Exit Lighting systems for the premium BMW automotive showroom facility.",
       services: ["Fire Fighting Systems", "Fire Alarm Systems", "Emergency & Exit Lighting"],
       image: "/images/project_4.jpg",
@@ -50,7 +50,7 @@ const ProjectGallery = () => {
     {
       id: 5,
       name: "Rolls Royce Showroom",
-      location: "Sheikh Zayed Road, Dubai",
+      location: "Sheikh Zayed Road, UAE",
       description: "High-end fire safety systems installation for the exclusive Rolls Royce showroom, maintaining the luxury standards with comprehensive safety coverage.",
       services: ["Fire Fighting Systems", "Fire Alarm Systems", "Emergency & Exit Lighting"],
       image: "/images/project_5.jpg",
@@ -59,7 +59,7 @@ const ProjectGallery = () => {
     {
       id: 6,
       name: "Deal Distribution Center",
-      location: "JAFZA, Dubai",
+      location: "JAFZA, UAE",
       description: "Industrial-scale Fire Fighting and Fire Alarm systems for the major distribution facility, ensuring safety standards for warehouse and logistics operations.",
       services: ["Fire Fighting Systems", "Fire Alarm Systems", "Emergency & Exit Lighting"],
       image: "/images/project_6.jpg",
@@ -68,7 +68,7 @@ const ProjectGallery = () => {
     {
       id: 7,
       name: "Ramada Hotel",
-      location: "Deira, Dubai",
+      location: "Deira, UAE",
       description: "Comprehensive fire safety systems installation for Ramada Hotel including Fire Fighting, Fire Alarm, and Emergency Exit Lighting throughout the facility.",
       services: ["Fire Fighting Systems", "Fire Alarm Systems", "Emergency & Exit Lighting"],
       image: "/images/project_7.jpg",
@@ -77,7 +77,7 @@ const ProjectGallery = () => {
     {
       id: 8,
       name: "Residential Complex Al Nahda",
-      location: "Al Nahda, Dubai",
+      location: "Al Nahda, UAE",
       description: "B+G+M+12 residential building project featuring complete MEP (Mechanical, Electrical, Plumbing) systems including HVAC and fire safety installations.",
       services: ["MEP Systems", "HVAC Installation", "Fire Safety Systems", "Electrical Works"],
       image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -86,7 +86,7 @@ const ProjectGallery = () => {
     {
       id: 9,
       name: "Commercial Complex Al Mamzar",
-      location: "Al Mamzar, Dubai",
+      location: "Al Mamzar, UAE",
       description: "B+G+M+3 mixed-use residential and commercial building with comprehensive electromechanical works including HVAC, Fire Fighting, and Fire Alarm systems.",
       services: ["HVAC Systems", "Fire Fighting", "Fire Alarm", "Commercial MEP"],
       image: "https://images.pexels.com/photos/1838640/pexels-photo-1838640.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -95,7 +95,7 @@ const ProjectGallery = () => {
     {
       id: 10,
       name: "Office Building Port Saeed",
-      location: "Port Saeed, Dubai",
+      location: "Port Saeed, UAE",
       description: "G+M+3 modern office building with B+G+M+7+HC+SP configuration featuring complete electromechanical installations and advanced HVAC systems.",
       services: ["Office MEP Systems", "Advanced HVAC", "Fire Safety", "Electrical Infrastructure"],
       image: "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -104,7 +104,7 @@ const ProjectGallery = () => {
     {
       id: 11,
       name: "Labor Accommodation DIP",
-      location: "Dubai Investment Park",
+      location: "UAE Investment Park",
       description: "G+2 labor accommodation facility with essential MEP services including HVAC, plumbing, electrical works, and comprehensive fire safety systems.",
       services: ["Basic MEP Systems", "HVAC Installation", "Fire Safety", "Staff Accommodation"],
       image: "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -113,7 +113,7 @@ const ProjectGallery = () => {
     {
       id: 12,
       name: "Star Mark Hotel",
-      location: "Al Muteena, Dubai",
+      location: "Al Muteena, UAE",
       description: "Luxury hotel project with sophisticated electromechanical works including premium HVAC systems, fire safety, and comprehensive MEP installations.",
       services: ["Hotel MEP Systems", "Premium HVAC", "Fire Safety Suite", "Luxury Installations"],
       image: "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -252,7 +252,7 @@ const ProjectGallery = () => {
             Our <span style={{color: '#DAA520'}}>Completed Projects</span>
           </h2>
           <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
-            Explore our portfolio of successfully delivered projects across Dubai, showcasing our expertise in MEP systems, HVAC, fire safety, and electromechanical installations.
+            Explore our portfolio of successfully delivered projects across UAE, showcasing our expertise in MEP systems, HVAC, fire safety, and electromechanical installations.
           </p>
         </div>
 

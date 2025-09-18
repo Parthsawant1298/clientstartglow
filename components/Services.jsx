@@ -84,11 +84,11 @@ export default function StarGlowServices() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col items-center text-center gap-3 sm:gap-4 mb-8 sm:mb-10 md:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-2 tracking-tight leading-tight">
-              Discover the Power of <span style={{color: '#DAA520'}}>Professional Technical Services</span>
+              Discover the Power of <span style={{color: '#DAA520'}}>Professional Fitout, Interior and MEP Services</span>
             </h2>
             <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
               Explore our comprehensive technical services designed to transform your property 
-              with professional workmanship and quality materials in Dubai.
+              with professional workmanship and quality materials in UAE.
             </p>
           </div>
           <div className="grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">

@@ -202,7 +202,7 @@ export default function Footer() {
                 fontSize: '0.875rem'
               }}
             >
-              Leading technical services company in Dubai, providing professional construction and maintenance
+              Leading technical services company in UAE, providing professional maintenance
               solutions.
             </p>
             <div style={{ display: 'flex', gap: '0.25rem' }}>
@@ -352,7 +352,7 @@ export default function Footer() {
                 />
                 <div>
                   <p style={{ color: '#B3B3B3', fontSize: '0.875rem', margin: 0 }}>
-                    Dubai - United Arab Emirates
+                    UAE - United Arab Emirates
                   </p>
                 </div>
               </div>
